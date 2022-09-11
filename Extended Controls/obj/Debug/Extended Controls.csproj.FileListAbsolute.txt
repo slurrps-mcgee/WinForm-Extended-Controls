@@ -1,0 +1,36 @@
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\bin\Debug\Extended Controls.dll
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\bin\Debug\Extended Controls.pdb
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\obj\Debug\Extended Controls.csproj.AssemblyReference.cache
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\obj\Debug\Extended Controls.csproj.CoreCompileInputs.cache
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\obj\Debug\Extended Controls.dll
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\obj\Debug\Extended Controls.pdb
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\obj\Debug\Extended_Controls.UserControl1.resources
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\obj\Debug\Extended Controls.csproj.GenerateResource.cache
+C:\Users\lambk\source\repos\Extended Controls\Extended Controls\bin\Debug\Extended Controls.dll.config
+D:\GitLab\Extended Controls\Extended Controls\bin\Debug\Extended Controls.dll.config
+D:\GitLab\Extended Controls\Extended Controls\bin\Debug\Extended Controls.dll
+D:\GitLab\Extended Controls\Extended Controls\bin\Debug\Extended Controls.pdb
+D:\GitLab\Extended Controls\Extended Controls\obj\Debug\Extended Controls.csproj.AssemblyReference.cache
+D:\GitLab\Extended Controls\Extended Controls\obj\Debug\Extended_Controls.UserControl1.resources
+D:\GitLab\Extended Controls\Extended Controls\obj\Debug\Extended Controls.csproj.GenerateResource.cache
+D:\GitLab\Extended Controls\Extended Controls\obj\Debug\Extended Controls.csproj.CoreCompileInputs.cache
+D:\GitLab\Extended Controls\Extended Controls\obj\Debug\Extended Controls.dll
+D:\GitLab\Extended Controls\Extended Controls\obj\Debug\Extended Controls.pdb
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\bin\Debug\Extended Controls.dll.config
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\bin\Debug\Extended Controls.dll
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\bin\Debug\Extended Controls.pdb
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\obj\Debug\Extended Controls.csproj.AssemblyReference.cache
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\obj\Debug\Extended_Controls.UserControl1.resources
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\obj\Debug\Extended Controls.csproj.GenerateResource.cache
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\obj\Debug\Extended Controls.csproj.CoreCompileInputs.cache
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\obj\Debug\Extended Controls.dll
+C:\Users\klamb\Source\Repos\extended-controls\Extended Controls\obj\Debug\Extended Controls.pdb
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\bin\Debug\Extended Controls.dll.config
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\bin\Debug\Extended Controls.dll
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\bin\Debug\Extended Controls.pdb
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.csproj.AssemblyReference.cache
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended_Controls.UserControl1.resources
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.csproj.GenerateResource.cache
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.csproj.CoreCompileInputs.cache
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.dll
+C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.pdb

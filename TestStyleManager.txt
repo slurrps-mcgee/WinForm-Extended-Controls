@@ -1,0 +1,326 @@
+using ExtendedControls.Properties;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExtendedControls.Class
+{
+    public partial class StyleManager : Component
+    {
+        public StyleManager()
+        {
+            InitializeComponent();
+        }
+
+        public StyleManager(IContainer container)
+        {
+            container.Add(this);
+
+            InitializeComponent();
+        }
+        [Editor(typeof(StyleCollection), typeof(UITypeEditor))]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
+        [Description("Style Collection")]
+        [Category("Behaviour")]
+        public Styles Styles
+        {
+            get
+            {
+                if (SurroundingClass.TableStyles == null)
+                    SurroundingClass.TableStyles = new Styles();
+                return SurroundingClass.TableStyles;
+            }
+            set
+            {
+                SurroundingClass.TableStyles = value;
+            }
+        }
+
+    }
+
+    //Editor
+    public class StyleCollection : CollectionEditor
+    {
+        public StyleCollection() : base(typeof(List<Style>))
+        {
+        }
+    }
+
+    class SurroundingClass
+    {
+        public static Styles TableStyles = new Styles();
+
+        public Styles Evarus_Styles
+        {
+            get
+            {
+                return TableStyles;
+            }
+            set
+            {
+                TableStyles = value;
+            }
+        }
+    }
+
+    public class Style
+    {
+        private string name = "Style";
+
+        private Color menuStripForeColor;
+        private Color menuStripSelectedForeColor;
+        private Color menuStripGradientBegin;
+        private Color menuStripGradientEnd;
+        private Color menuItemPressedGradientBegin;
+        private Color menuItemPressedGradientEnd;
+        private Color menuItemSelectedGradientBegin;
+        private Color menuItemSelectedGradientEnd;
+        private Color menuItemSelected;
+        private Color menuBorder;
+        private Color menuItemBorder;
+        private Color imageMarginGradientBegin;
+        private Color imageMarginGradientMiddle;
+        private Color imageMarginGradientEnd;
+
+        public string StyleName
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        #region Text Coloring
+        /// <summary>
+        /// Gets or sets the ForeColor of the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuStripForeColor")]
+        public Color MenuStripForeColor
+        {
+            get { return menuStripForeColor; }
+            set
+            {
+                menuStripForeColor = value;
+                //this.ForeColor = value;
+            }
+        }
+
+        [Category("Style")]
+        [DisplayName("MenuStripSelectedForeColor")]
+        public Color MenuStripSelectedForeColor
+        {
+            get { return menuStripSelectedForeColor; }
+            set
+            {
+                menuStripSelectedForeColor = value;
+                //this.ForeColor = value;
+            }
+        }
+        #endregion
+
+        #region TitleBar Coloring
+        /// <summary>
+        /// Gets or sets the start color of the gradient used in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuStripGradientBegin")]
+        [Description("Colors the MenuStripGradientBegin of the titlebar")]
+        public Color MenuStripGradientBegin
+        {
+            get { return menuStripGradientBegin; }
+            set { menuStripGradientBegin = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the end color of the gradient used in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuStripGradientEnd")]
+        [Description("Colors the MenuStripGradientEnd of the titlebar")]
+        public Color MenuStripGradientEnd
+        {
+            get { return menuStripGradientEnd; }
+            set { menuStripGradientEnd = value; }
+        }
+        #endregion
+
+        #region Top level Click Coloring
+        /// <summary>
+        /// Gets or sets the start color of the gradient used when the top-level menu item is selected in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuItemPressedGradientBegin")]
+        [Description("Colors the MenuItemPressedGradientBegin of the top level Click")]
+        public Color MenuItemPressedGradientBegin
+        {
+            get { return menuItemPressedGradientBegin; }
+            set { menuItemPressedGradientBegin = value; }
+        }
+
+        ///// <summary>
+        ///// Gets or sets the middle color of the gradient used when the top-level menu item is selected in the System.Windows.Forms.MenuStrip control.
+        ///// </summary>
+        //[Category("Style")]
+        //[DisplayName("MenuItemPressedGradientMiddle")]
+        //public Color MenuItemPressedGradientMiddle
+        //{
+        //    get { return Settings.Default.MenuStripGradientEnd; }
+        //    set { Settings.Default.MenuStripGradientEnd = value; }
+        //}
+
+        /// <summary>
+        /// Gets or sets the end color of the gradient used when the top-level menu item is selected in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuItemPressedGradientEnd")]
+        [Description("Colors the MenuItemPressedGradientEnd of the top level Click")]
+        public Color MenuItemPressedGradientEnd
+        {
+            get { return menuItemPressedGradientEnd; }
+            set { menuItemPressedGradientEnd = value; }
+        }
+        #endregion
+
+        #region Top Level Hover Coloring
+        /// <summary>
+        /// Gets or sets the end color of the gradient used when the menu item is selected in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuItemSelectedGradientBegin")]
+        [Description("Colors the MenuItemSelectedGradientBegin of the top level hover")]
+        public Color MenuItemSelectedGradientBegin
+        {
+            get { return menuItemSelectedGradientBegin; }
+            set { menuItemSelectedGradientBegin = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the end color of the gradient used when the menu item is selected in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuItemSelectedGradientEnd")]
+        [Description("Colors the MenuItemSelectedGradientEnd of the top level hover")]
+        public Color MenuItemSelectedGradientEnd
+        {
+            get { return menuItemSelectedGradientEnd; }
+            set { menuItemSelectedGradientEnd = value; }
+        }
+        #endregion
+
+        #region Selected Item Coloring
+        /// <summary>
+        /// Gets or sets the color used when the menu item is selected in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuItemSelected")]
+        [Description("Colors the menu item that is selected in the drop down menu")]
+        public Color MenuItemSelected
+        {
+            get { return menuItemSelected; }
+            set { menuItemSelected = value; }
+        }
+        #endregion
+
+        #region Border Coloring
+        /// <summary>
+        /// Gets or sets the color used when the menu item is selected in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuBorder")]
+        [Description("Colors the MenuBorder around the drop down menu")]
+        public Color MenuBorder
+        {
+            get { return menuBorder; }
+            set { menuBorder = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the color used when the menu item is selected in the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("MenuItemBorder")]
+        [Description("Colors the MenuItemBorder which is the top level items hover border")]
+        public Color MenuItemBorder
+        {
+            get { return menuItemBorder; }
+            set { menuItemBorder = value; }
+        }
+        #endregion
+
+        #region Image Coloring
+        /// <summary>
+        /// Gets or sets the starting color of the gradient used in the image margin of the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("ImageMarginGradientBegin")]
+        [Description("Colors the GradientBegin of the Image on the left of the text")]
+        public Color ImageMarginGradientBegin
+        {
+            get { return imageMarginGradientBegin; }
+            set { imageMarginGradientBegin = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the middle color of the gradient used in the image margin of the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("ImageMarginGradientMiddle")]
+        [Description("Colors the GradientMiddle of the Image on the left of the text")]
+        public Color ImageMarginGradientMiddle
+        {
+            get { return imageMarginGradientMiddle; }
+            set { imageMarginGradientMiddle = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the ending color of the gradient used in the image margin of the System.Windows.Forms.MenuStrip control.
+        /// </summary>
+        [Category("Style")]
+        [DisplayName("ImageMarginGradientEnd")]
+        [Description("Colors the GradientEnd of the Image on the left of the text")]
+        public Color ImageMarginGradientEnd
+        {
+            get { return imageMarginGradientEnd; }
+            set { imageMarginGradientEnd = value; }
+        }
+        #endregion
+    }
+
+    public class Styles : CollectionBase
+    {
+        public Style this[int Index]
+        {
+            get
+            {
+                return (Style)List[Index];
+            }
+            set
+            {
+                List[Index] = value;
+            }
+        }
+        public void Add(Style Item)
+        {
+            if (List.Count == 0)
+                List.Add(Item);
+            else
+            {
+                for (var i = 0; i <= List.Count - 1; i++)
+                {
+                    Style myStyle;
+                    myStyle = (Style)List[i];
+                    if (myStyle.StyleName == Item.StyleName)
+                        Item.StyleName += "1";
+                }
+                List.Add(Item);
+            }
+        }
+    }
+}
