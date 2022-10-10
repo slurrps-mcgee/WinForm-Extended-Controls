@@ -2,6 +2,12 @@
 
 Extension of Winform controls MenuStrip and ContextMenuStrip may include other controls over time.
 
+# Usage
+Add dll to your program and then add the controls to the control library by selecting the dll. Once done you will see both ContextStripExtended and MenuStripExtended added to the controls. Once there you will be able to edit the colors of the control by setting the theme to either dark, light, or custom. Once set to custom you will be able to edit any of the colors in the style section. It will render in real time the new theme you create.
+
+# Code Explenation
+Please feel free to fork this repository and add controls that you wish to see extended in the winforms controls.
+
 # Menu Strip Extended Control #
 
 Extension of the WinForm Control MenuStrip providing a custom renderer so that the control can be re-colored. This custom renderer includes a new ProfessionalColorTable which changes the following items.
