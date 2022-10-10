@@ -1,13 +1,7 @@
 ﻿using Extended_Controls.Class;
 using Extended_Controls.Properties;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Extended_Controls.Controls
@@ -82,6 +76,7 @@ namespace Extended_Controls.Controls
         }
         #endregion
 
+        #region BackColor
         //Removes the default BackColor
         [Browsable(false)]
         public new Color BackColor
@@ -89,6 +84,7 @@ namespace Extended_Controls.Controls
             get => base.BackColor;
             set => base.BackColor = value;
         }
+        #endregion
 
         #region Top level Click Coloring
         /// <summary>
@@ -243,9 +239,6 @@ namespace Extended_Controls.Controls
                 ApplyTheme(theme.ToString());
             }
         }
-
-
-
         #endregion
 
         #region Methods

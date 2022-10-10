@@ -1,13 +1,7 @@
 ﻿using Extended_Controls.Class;
 using Extended_Controls.Properties;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Extended_Controls.Controls
@@ -22,7 +16,6 @@ namespace Extended_Controls.Controls
             InitializeComponent();
 
             this.RenderMode = ToolStripRenderMode.Professional;
-            //Sets the renderer to a new ProfessionalRenderer giving it the ContextStripExtender
             this.Renderer = new CustomContextRenderer();
         }
 
@@ -69,7 +62,6 @@ namespace Extended_Controls.Controls
                 this.BackColor = value;
             }
         }
-        #endregion
 
         //Removes the default BackColor
         [Browsable(false)]
@@ -78,6 +70,7 @@ namespace Extended_Controls.Controls
             get => base.BackColor;
             set => base.BackColor = value;
         }
+        #endregion
 
         #region Selected Item Coloring
         /// <summary>
@@ -163,7 +156,6 @@ namespace Extended_Controls.Controls
                 ApplyTheme(theme.ToString());
             }
         }
-
         #endregion
 
         #region Methods

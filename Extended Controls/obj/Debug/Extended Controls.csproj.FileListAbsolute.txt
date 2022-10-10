@@ -34,3 +34,12 @@ C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj
 C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.csproj.CoreCompileInputs.cache
 C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.dll
 C:\Users\klamb\Documents\Gitlab\Personal\Extended_Controls\Extended Controls\obj\Debug\Extended Controls.pdb
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\bin\Debug\Extended Controls.dll.config
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\bin\Debug\Extended Controls.dll
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\bin\Debug\Extended Controls.pdb
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\obj\Debug\Extended Controls.csproj.AssemblyReference.cache
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\obj\Debug\Extended_Controls.UserControl1.resources
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\obj\Debug\Extended Controls.csproj.GenerateResource.cache
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\obj\Debug\Extended Controls.csproj.CoreCompileInputs.cache
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\obj\Debug\Extended Controls.dll
+E:\Programming\3 - GitHub\WinForm-Extended-Controls\Extended Controls\obj\Debug\Extended Controls.pdb

@@ -60,15 +60,21 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextStripExtended1 = new Extended_Controls.Controls.ContextStripExtended();
+            this.fileToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuControlExtended1.SuspendLayout();
+            this.contextStripExtended1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuControlExtended1
             // 
-            this.menuControlExtended1.ForeColor = System.Drawing.Color.Black;
-            this.menuControlExtended1.ImageMarginGradientBegin = System.Drawing.Color.WhiteSmoke;
-            this.menuControlExtended1.ImageMarginGradientEnd = System.Drawing.Color.WhiteSmoke;
-            this.menuControlExtended1.ImageMarginGradientMiddle = System.Drawing.Color.WhiteSmoke;
+            this.menuControlExtended1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.menuControlExtended1.ImageMarginGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.menuControlExtended1.ImageMarginGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.menuControlExtended1.ImageMarginGradientMiddle = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.menuControlExtended1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
@@ -78,19 +84,19 @@
             this.menuControlExtended1.MenuBorder = System.Drawing.Color.LightBlue;
             this.menuControlExtended1.MenuItemBorder = System.Drawing.Color.LightBlue;
             this.menuControlExtended1.MenuItemPressedGradientBegin = System.Drawing.Color.LightBlue;
-            this.menuControlExtended1.MenuItemPressedGradientEnd = System.Drawing.Color.WhiteSmoke;
+            this.menuControlExtended1.MenuItemPressedGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(173)))), ((int)(((byte)(216)))), ((int)(((byte)(230)))));
             this.menuControlExtended1.MenuItemSelected = System.Drawing.Color.LightBlue;
             this.menuControlExtended1.MenuItemSelectedGradientBegin = System.Drawing.Color.LightBlue;
             this.menuControlExtended1.MenuItemSelectedGradientEnd = System.Drawing.Color.LightBlue;
-            this.menuControlExtended1.MenuStripForeColor = System.Drawing.Color.Black;
-            this.menuControlExtended1.MenuStripGradientBegin = System.Drawing.Color.WhiteSmoke;
-            this.menuControlExtended1.MenuStripGradientEnd = System.Drawing.Color.WhiteSmoke;
-            this.menuControlExtended1.MenuStripSelectedForeColor = System.Drawing.Color.Black;
+            this.menuControlExtended1.MenuStripForeColor = System.Drawing.Color.WhiteSmoke;
+            this.menuControlExtended1.MenuStripGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.menuControlExtended1.MenuStripGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.menuControlExtended1.MenuStripSelectedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.menuControlExtended1.Name = "menuControlExtended1";
             this.menuControlExtended1.Size = new System.Drawing.Size(800, 24);
             this.menuControlExtended1.TabIndex = 0;
             this.menuControlExtended1.Text = "menuControlExtended1";
-            this.menuControlExtended1.Theme = Extended_Controls.Controls.MenuControlExtended.ControlTheme.Light;
+            this.menuControlExtended1.Theme = Extended_Controls.Controls.MenuControlExtended.ControlTheme.Dark;
             // 
             // fileToolStripMenuItem
             // 
@@ -112,7 +118,6 @@
             // 
             // newToolStripMenuItem
             // 
-            this.newToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
@@ -122,7 +127,6 @@
             // 
             // openToolStripMenuItem
             // 
-            this.openToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
@@ -137,7 +141,6 @@
             // 
             // saveToolStripMenuItem
             // 
-            this.saveToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
@@ -147,7 +150,6 @@
             // 
             // saveAsToolStripMenuItem
             // 
-            this.saveAsToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.saveAsToolStripMenuItem.Text = "Save &As";
@@ -159,7 +161,6 @@
             // 
             // printToolStripMenuItem
             // 
-            this.printToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
@@ -169,7 +170,6 @@
             // 
             // printPreviewToolStripMenuItem
             // 
-            this.printPreviewToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
@@ -183,7 +183,6 @@
             // 
             // exitToolStripMenuItem
             // 
-            this.exitToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
@@ -206,7 +205,6 @@
             // 
             // undoToolStripMenuItem
             // 
-            this.undoToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
             this.undoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
             this.undoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
@@ -214,7 +212,6 @@
             // 
             // redoToolStripMenuItem
             // 
-            this.redoToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
             this.redoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
             this.redoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
@@ -227,7 +224,6 @@
             // 
             // cutToolStripMenuItem
             // 
-            this.cutToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.cutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripMenuItem.Image")));
             this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
@@ -237,7 +233,6 @@
             // 
             // copyToolStripMenuItem
             // 
-            this.copyToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
             this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
@@ -247,7 +242,6 @@
             // 
             // pasteToolStripMenuItem
             // 
-            this.pasteToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.pasteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripMenuItem.Image")));
             this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
@@ -262,7 +256,6 @@
             // 
             // selectAllToolStripMenuItem
             // 
-            this.selectAllToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
             this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.selectAllToolStripMenuItem.Text = "Select &All";
@@ -279,14 +272,12 @@
             // 
             // customizeToolStripMenuItem
             // 
-            this.customizeToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
             this.customizeToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.customizeToolStripMenuItem.Text = "&Customize";
             // 
             // optionsToolStripMenuItem
             // 
-            this.optionsToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.optionsToolStripMenuItem.Text = "&Options";
@@ -306,21 +297,18 @@
             // 
             // contentsToolStripMenuItem
             // 
-            this.contentsToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
             this.contentsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
-            this.indexToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
             this.indexToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
-            this.searchToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.searchToolStripMenuItem.Text = "&Search";
@@ -332,35 +320,80 @@
             // 
             // aboutToolStripMenuItem
             // 
-            this.aboutToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             // 
             // contextStripExtended1
             // 
-            this.contextStripExtended1.ContextMenuBackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.contextStripExtended1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.contextStripExtended1.ContextMenuBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.contextStripExtended1.ContextMenuBorderColor = System.Drawing.Color.LightBlue;
             this.contextStripExtended1.ContextMenuItemBorderColor = System.Drawing.Color.LightBlue;
             this.contextStripExtended1.ContextMenuItemSelectedColor = System.Drawing.Color.LightBlue;
-            this.contextStripExtended1.ContextStripForeColor = System.Drawing.Color.Black;
-            this.contextStripExtended1.ContextStripSelectedForeColor = System.Drawing.Color.Black;
-            this.contextStripExtended1.ImageMarginGradientBeginColor = System.Drawing.Color.WhiteSmoke;
-            this.contextStripExtended1.ImageMarginGradientEndColor = System.Drawing.Color.WhiteSmoke;
-            this.contextStripExtended1.ImageMarginGradientMiddleColor = System.Drawing.Color.WhiteSmoke;
+            this.contextStripExtended1.ContextStripForeColor = System.Drawing.Color.WhiteSmoke;
+            this.contextStripExtended1.ContextStripSelectedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.contextStripExtended1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.contextStripExtended1.ImageMarginGradientBeginColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.contextStripExtended1.ImageMarginGradientEndColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.contextStripExtended1.ImageMarginGradientMiddleColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.contextStripExtended1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem1,
+            this.editToolStripMenuItem1,
+            this.toolsToolStripMenuItem1,
+            this.helpToolStripMenuItem1});
             this.contextStripExtended1.Name = "contextStripExtended1";
-            this.contextStripExtended1.Size = new System.Drawing.Size(181, 26);
-            this.contextStripExtended1.Theme = Extended_Controls.Controls.ContextStripExtended.ControlTheme.Light;
+            this.contextStripExtended1.Size = new System.Drawing.Size(102, 92);
+            this.contextStripExtended1.Theme = Extended_Controls.Controls.ContextStripExtended.ControlTheme.Dark;
+            // 
+            // fileToolStripMenuItem1
+            // 
+            this.fileToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saveToolStripMenuItem1});
+            this.fileToolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
+            this.fileToolStripMenuItem1.Name = "fileToolStripMenuItem1";
+            this.fileToolStripMenuItem1.Size = new System.Drawing.Size(101, 22);
+            this.fileToolStripMenuItem1.Text = "File";
+            // 
+            // saveToolStripMenuItem1
+            // 
+            this.saveToolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
+            this.saveToolStripMenuItem1.Name = "saveToolStripMenuItem1";
+            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(98, 22);
+            this.saveToolStripMenuItem1.Text = "Save";
+            // 
+            // editToolStripMenuItem1
+            // 
+            this.editToolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
+            this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
+            this.editToolStripMenuItem1.Size = new System.Drawing.Size(101, 22);
+            this.editToolStripMenuItem1.Text = "Edit";
+            // 
+            // toolsToolStripMenuItem1
+            // 
+            this.toolsToolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
+            this.toolsToolStripMenuItem1.Name = "toolsToolStripMenuItem1";
+            this.toolsToolStripMenuItem1.Size = new System.Drawing.Size(101, 22);
+            this.toolsToolStripMenuItem1.Text = "Tools";
+            // 
+            // helpToolStripMenuItem1
+            // 
+            this.helpToolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
+            this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(101, 22);
+            this.helpToolStripMenuItem1.Text = "Help";
             // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ContextMenuStrip = this.contextStripExtended1;
             this.Controls.Add(this.menuControlExtended1);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(800, 450);
             this.menuControlExtended1.ResumeLayout(false);
             this.menuControlExtended1.PerformLayout();
+            this.contextStripExtended1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -399,5 +432,10 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private Controls.ContextStripExtended contextStripExtended1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
     }
 }
